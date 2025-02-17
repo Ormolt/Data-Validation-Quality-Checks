@@ -70,7 +70,7 @@ setwd("path/to/your_data_directory")
 
 ### 2️⃣ **Source the script**:
 ```r
-source("path/to/data_processor.R")
+source("path/to/data_cleaning_setup.R")
 ```
 
 ### 3️⃣ **Run the processing function**:
