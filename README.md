@@ -1,4 +1,4 @@
-# 📌 Data Validation and Quality Check Script Documentation
+# 📌 Data Validation and Quality Check Script
 
 ## 🚀 Overview
 This **R script** automates the process of **data validation, quality checks, and preprocessing**. It ensures datasets are loaded correctly, detects **missing values**, identifies **outliers**, and generates **summary statistics and visualizations**. The script supports multiple file formats and includes **parallel processing** capabilities for efficient execution.
@@ -53,6 +53,14 @@ c("ggplot2", "dplyr", "VIM", "caret", "corrplot", "openxlsx", "jsonlite", "readr
 ⚡ Processes all datasets in a **specified directory**.
 🔄 Uses **parallel processing** for efficiency.
 
+## 🔍 Use Cases
+This script can be applied in various scenarios, such as:
+- 📊 **Data Science & Machine Learning**: Ensuring high-quality datasets before model training.
+- 🏥 **Healthcare Analytics**: Cleaning patient records and identifying missing data.
+- 🏛 **Financial Analysis**: Detecting anomalies in transaction data.
+- 📈 **Business Intelligence**: Automating data validation for dashboards and reports.
+
+
 ## ▶️ Execution Instructions
 
 ### 1️⃣ **Set the working directory**:
@@ -79,5 +87,20 @@ process_all_datasets("path/to/your_data_directory")
 - 🔹 Ensure **all required packages** are installed before execution.
 - 🔹 The script **excludes already processed files** to avoid duplication.
 - 🔹 **Parallel processing** optimizes performance on multi-core systems.
+
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve this script:
+1. Fork the repository.
+2. Create a new branch (`feature-branch-name`).
+3. Make your changes and commit them.
+4. Submit a pull request for review.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+## 📬 Contact
+For issues, suggestions, or questions, please reach out via:
+- 📧 Email: `ormolt88@gmail.com`
+- 🏠 GitHub Issues: [Open an issue](https://github.com/Ormolt/Data-Validation-Quality-Checks/issues)
 
 By using this script, **data validation and quality checks are automated**, ensuring efficient and reliable preprocessing for further analysis. 🚀
